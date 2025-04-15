@@ -1,6 +1,33 @@
 /* this css file will only style the homepage of our site */
 
-.cat-photo {
+.ari-photo {
   margin: 10px;
-  max-width: 500px;
+  max-height: 400px;
+}
+.ariOiya-photo {
+  margin: 10px;
+  max-height: 500px;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+
+h1, h2, h3{
+  border: dashed 4px;
+  padding: 10px;
+  color: rgb(245, 245, 238);
+}
+
+
+.about-me {
+  font-weight: bold;
+  color:rgb(59, 89, 121);
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: Arial, Courier, monospace;
+  background-color: rgb(244, 236, 219);
 }
