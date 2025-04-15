@@ -7,3 +7,41 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+#fangGIF {
+	width: 500px;
+	height: auto;
+  transform: translateY(390px) translateX(-50px);
+
+}
+#makotoGIF {
+	width: 500px;
+	height: auto;
+  transform: scaleX(-1) translateY(380px);
+  
+
+}
+.arena {    
+  border: solid 6px rgb(87, 63, 63);
+  width: 100%;
+  height: 900px;
+  background-image: url("../img/colosseo.avif");
+  background-size: fit-content;
+}
+
+.helloWorldSection h1{
+  border: solid 4px rgb(150, 121, 121);
+  padding: 20px;
+  font-size: 40px;
+  background-color: rgb(243, 239, 226);}
+.helloWorldSection p{
+  border: solid 4px rgb(150, 121, 121);
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgb(243, 239, 226);
+}
+
+.helloWorldSection{
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(231, 216, 194);
+}
