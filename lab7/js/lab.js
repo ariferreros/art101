@@ -22,7 +22,7 @@ function sortUserName() {
 }
 
 // output 
-document.writeln("Here is your sorted name: " + sortUserName() + "</br>")
+document.writeln("Here is your sorted name: ", sortUserName(), "</br>")
 
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
