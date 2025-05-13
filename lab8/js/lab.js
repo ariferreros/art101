@@ -7,7 +7,6 @@ let myArr = [0, 1, 2, 3]
 
 // Functions
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
 function add3(x) {
   return x + 3;
 }
