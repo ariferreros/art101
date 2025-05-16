@@ -1,0 +1,58 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #DDD8C4;
+}
+
+.special {
+  background-image: url("../img/ryu.png");
+  background-repeat: no-repeat;
+  background-size: fill;
+  height: 100px;
+  width: 800px;
+}
+
+.text {
+  /* border: solid; */
+  width: 370px;
+  height: 100px;
+  background-image: url("../img/sans.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.text p {
+  /* border: solid; */
+
+  /* width: 400px; */
+  display: inline-block;
+  /* padding-left: 100px; */
+  /* max-width: 60%; */
+  margin: 3px;
+  padding-left: 90px;
+  padding-top: 30px;
+  /* padding: 5px 10px; */
+  /* background-color: darkgray; */
+  color: white;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 0.9em;
+}
+
+.text-monica {
+  margin-left: 50px;
+  width: 370px;
+  height: 100px;
+  background-image: url("../img/monika.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin: 3px;
+  padding-left: 30px;
+  padding-top: 40px;
+  color: white;
+  font-family: "aller", cursive;
+}
