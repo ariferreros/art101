@@ -9,7 +9,7 @@ let factorsMap = {
 }
 function startLoop(maxNum) {
   let str = ''
-  for (let i = 0; i < maxNum; i++) {
+  for (let i = 0; i <= maxNum; i++) {
     str += `${i}: `
 
     for (const factor in factorsMap) {
