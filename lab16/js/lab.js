@@ -21,6 +21,9 @@ function comic() {
           `<p>${alt}</p>`
       )
     },
+    error: function (error) {
+      console.log('Error: ' + error)
+    },
   })
 }
 comic()
